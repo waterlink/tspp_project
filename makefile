@@ -2,7 +2,7 @@ cc = g++
 cflags = -c -Wall
 ldflags = -Wl,--allow-multiple-definition
 libraries = 
-sources = main.cpp
+sources = main.cpp entity.cpp human.cpp utilitycore.cpp
 objects = $(sources:.cpp=.o)
 executable = main.elf
 
