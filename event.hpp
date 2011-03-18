@@ -12,8 +12,8 @@ event: public entity{
 
 public:
 
-	entity();
-	~entity();
+	event();
+	~event();
 
 	virtual void 	
 	set(datetime_start, string value);
@@ -27,10 +27,33 @@ public:
 	virtual void 	
 	set(lecturerid, int value);
 
-	// TODO: add methods here
+	virtual string
+	get(datetime_start) const;
+
+	virtual string
+	get(datetime_end) const;
+
+	virtual string
+	get(group) const;
+
+	virtual int
+	get(lecturerid) const;
+
+	void
+	fromstring(string & data);
+
+	string
+	tostring() const;
+
+	virtual bool
+	operator < (const event & op) const;
+
+	virtual int
+	get(id) const;
+
 protected:
 
-	entity(int);
+	event(int);
 
 	int
 	id;	

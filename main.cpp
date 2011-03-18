@@ -4,7 +4,8 @@
 
 #include "entity.hpp"
 #include "utilitycore.hpp"
-#include "lecturer.hpp"
+#include "event.hpp"
+#include "event.hpp"
 
 int
 main(){
@@ -20,8 +21,8 @@ main(){
 	string
 	S;
 
-	set < lecturer >
-	lecturers;
+	set < event >
+	events;
 
 	cin >> n;
 	//ch = 0;
@@ -33,18 +34,18 @@ main(){
 
 		getline(cin, S);
 
-		lecturer 
-		newlecturer;
+		event 
+		newevent;
 		
-		newlecturer.fromstring(S);
+		newevent.fromstring(S);
 
-		lecturers.insert(newlecturer);
+		events.insert(newevent);
 
 	}
 
-	for (set < lecturer >::iterator iter = lecturers.begin(); iter != lecturers.end(); ++iter){
+	for (set < event >::iterator iter = events.begin(); iter != events.end(); ++iter){
 
-		cout << iter->tostring();
+		cout << iter->get(id) << "\t" << iter->tostring();
 
 	}
 
