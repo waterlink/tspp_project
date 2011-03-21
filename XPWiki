@@ -1,0 +1,662 @@
+Extreme Programming
+Материал из AgileWiki
+Перейти к: навигация, поиск
+Содержание
+[убрать]
+
+    * 1 Определение
+          o 1.1 XP1
+          o 1.2 XP2
+    * 2 Статьи
+          o 2.1 Принципы XP
+          o 2.2 Практики XP
+          o 2.3 Риски в XP
+          o 2.4 Правила Экстремального программирования
+          o 2.5 Конституция разработки ПО
+          o 2.6 TODO: ЗАБРАТЬ ВСЁ !!!
+          o 2.7 An Evolving Book about Extreme Programming with Perl
+          o 2.8 Ron Jeffries. What is Extreme Programming?
+    * 3 Статьи XP2
+          o 3.1 "Экстремальное программирование - 2.0", Микеле Марчези
+                + 3.1.1 Основные ценности
+                + 3.1.2 Принципы экстремального программирования
+                + 3.1.3 Практики ХР
+                      # 3.1.3.1 Основные практики
+                      # 3.1.3.2 Дополнительные практики
+    * 4 Ссылки
+
+Определение
+
+    * http://en.wikipedia.org/wiki/Extreme_Programming 
+
+Экстремальное программирование (англ. Extreme Programming, XP) — одна из гибких методологий разработки программного обеспечения. Авторы методологии — Кент Бек (Kent Beck), Уорд Каннингем (Ward Cunningham), Мартин Фаулер и другие.
+XP1
+
+Двенадцать основных практик экстремального программирования (по первому изданию книги Extreme programming explained) могут быть объединены в четыре группы:
+
+    * Короткий цикл обратной связи (Fine Scale Feedback)
+          o Разработка через тестирование Test Driven Development
+          o Игра в планирование (Planning Game)
+          o Заказчик всегда рядом (Whole Team, Onsite Customer)
+          o Парное программирование (Pair Programming) 
+    * Непрерывный, а не пакетный процесс
+          o Непрерывная интеграция (Continuous Integration)
+          o Рефакторинг (Design Improvement, Refactoring)
+          o Частые небольшие релизы (Small Releases) 
+    * Понимание, разделяемое всеми
+          o Простота (Simple Design)
+          o Метафора системы (System Metaphor)
+          o Коллективное владение кодом (Collective Code Ownership)
+          o Стандарт кодирования (Coding Standard or Coding conventions) 
+    * Социальная защищенность программиста (Programmer Welfare):
+          o 40-часовая рабочая неделя (Sustainable Pace, 40-hour week) 
+
+XP2
+
+Ценности
+
+    * Общение
+    * Простота
+    * Обратная связь
+    * Смелость, кураж
+    * Уважение 
+
+Принципы
+
+    * Человечность
+    * Economics
+    * Взаимная выгода
+    * Сходство
+    * Все лучше и лучше
+    * Обдумывание
+    * Течение (flow)
+    * Новые возможности
+    * Избыточность
+    * Неудачи
+    * Качество
+    * Маленькими шажками
+    * Ответственность 
+
+Практики Основные практики
+
+    * Анализ требований и планирование
+          o «Рассказы»:
+          o Еженедельный цикл
+          o Ежеквартальный цикл
+          o Слабина 
+    * Команда и человеческий фактор
+          o Работа в одном помещении
+          o Команда как одно целое
+          o Информативность окружения
+          o Энергичная работа
+          o Парное программирование 
+    * Проектирование
+          o Инкрементное проектирование
+          o Сначала тесты
+          o «Программирование по-ковбойски»
+          o Слаженность и единство
+          o Доверие
+          o Ритм 
+
+Дополнительные практики
+
+    * Анализ требований и планирование
+          o Непосредственное вовлечение заказчика
+          o Инкрементная поставка продукта
+          o Контракт с оговоренным объемом работ
+          o Плата за использование 
+    * Команда и человеческий фактор
+          o Постоянство
+          o «Усушка и утряска» 
+    * Проектирование
+          o Анализ причин и следствий 
+    * Программирование и выпуск продукта
+          o Код и тесты
+          o Общий код
+          o Единая база программного кода
+          o Ежедневная поставка системы 
+
+    * http://www.maxkir.com/sd/extreme_programming_2.html 
+
+В первом издании книги экстремальное программирование насчитывало четыре основных ценности, пятнадцать базовых принципов и двенадцать практик. Более того, Кент Бек четко и недвусмысленно писал, что экстремальным программированием может считаться только полное и безоговорочное следование всем этим знаменитым двенадцати практикам. Во втором издании никаких двенадцати практик нет уже и в помине! У новой версии экстремального программирования есть пять основных ценностей, четырнадцать принципов, тринадцать главных практик и одиннадцать дополнительных. При этом новые 24 практики лишь отчасти напоминают исходные двенадцать. Две из них, метафора и стандарты написания кода, и вовсе исчезли.
+Статьи
+Принципы XP
+
+Отцом-идеологом экстремального программирования считают Кента Бека (Kent Beck). XP является достаточно молодой методологией, оценки которой весьма противоречивы — от восторженных до резко негативных. Основными принципами являются:
+
+    * Простота решений (simplicity).
+    * Интенсивная разработка малыми группами (не больше 10 человек), активное общение в группе и между группами (communication).
+    * Обратная связь с клиентом (feedback), который фактически вовлечен в процесс разработки.
+    * Достаточная степень смелости (courage) и желание идти на риск. 
+
+Первый фактор ускорения разработки — итеративность: разработка ведется короткими итерациями при наличии активной взаимосвязи с заказчиком. XP — это итеративный процесс разработки, который сам по себе не является революционным. Итерации как таковые предлагается делать короткими, рекомендуемая длительность — 2-3 недели и не более 1 месяца. За одну итерацию группа программистов обязана реализовать несколько свойств системы, каждое из которых описывается в пользовательской истории (user story). Пользовательские истории в данном случае являются начальной информацией, на основании которой создается модуль. Пользовательские истории отличаются от прецедентов (use case): пользовательская история коротка — 1-2 абзаца, тогда как прецеденты обычно пишут достаточно подробными, с основным и альтернативными потоками — таким образом, получается примерно страница плюс схема (наиболее распространенная формализация в настоящее время предложена в UML); истории пользователей пишутся самими пользователями (которые в XP являются частью команды) в отличие от прецедентов, которые обычно пишет системный аналитик. Отсутствие формализации описания входных данных проекта в XP стремятся компенсировать посредством активного включения в процесс разработки заказчика как полноправного члена команды и за счет наличия постоянного контакта с заказчиком (активное общение и непрерывная поддержка обратной связи). В данном случае extreme — это степень привлечения заказчика к программистской кухне, что обусловлено стремлением сжать сроки разработки за счет коммуникации и обратной связи.
+
+Второй фактор ускорения разработки продукта — наличие малых групп и парное программирование (когда два программиста вместе создают код на одном общем рабочем месте). Все это нацелено на достижение высокого уровня общения в группе, а также на как можно более раннее обнаружение проблем (как ошибок, так и срыва сроков). Парное программирование преследует цель стабилизации проекта, так как при данной методологии высок риск потери кода по причине ухода программиста, не выдержавшего интенсивного графика работы. В этом случае второй программист из пары играет роль «наследника» кода (что в классических методиках реализуется в технической документации). Немаловажно и то, как именно распределены группы в рабочем пространстве — в XP используется открытое рабочее пространство, которое предполагает быстрый и свободный доступ всех ко всем; как правило, рабочее пространство строится на основе круга.
+
+Третий фактор ускорения разработки процесса — принятие первого наипростейшего рабочего решения. В данном случае экстремальность метода связана с высокой степенью риска решения, обусловленного поверхностностью анализа и жестким временным графиком. Реализуется минимальный набор главных функций системы на первой и каждой последующей итерации; функциональность расширяется на каждой итерации.
+Практики XP
+
+Обычно XP характеризуют набором из 12 действий (практик), которые необходимо выполнять для достижения хорошего результата. Практики XP не определяют сам процесс XP, но XP определяет эти практики — то есть выполнение практик не гарантирует результата. Ни одна из практик не является принципиально новой, но в XP они собраны вместе.
+
+• Планирование процесса (planning game). Вся команда собирается вместе, принимается коллективное решение о том, какие свойства системы будут реализованы в ближайшей итерации. Набор свойств определяется пользовательскими историями. XP-трудоемкость каждого свойства определяется самими программистами.
+
+• Тесное взаимодействие с заказчиком (feed-back, on-site customer). Заказчик должен быть членом XP-команды (on-site customer). Он пишет пользовательские истории, выбирает истории, которые будут реализованы в конкретной итерации, и отвечает на вопросы, касающиеся бизнеса. Заказчик должен быть экспертом в автоматизируемой предметной области. Необходимо постоянное наличие обратной связи с заказчиком (feed-back).
+
+• Метафора системы (system metaphor). Хорошая метафора системы означает простоту именования классов и переменных. В реальной жизни поиск метафоры — крайне сложное занятие; найти хорошую метафору непросто. В любом случае команда должна иметь единые правила именования.
+
+• Простая архитектура (simple design). Любое свойство системы должно быть реализовано как можно проще. Программисты в XP-команде работают под девизом: «Ничего лишнего!». Принимается первое наипростейшее работающее решение, реализуется необходимый уровень функциональности на данный момент. Тем самым экономится время программиста.
+
+• Стандарты кодирования (coding conventions). Стандарты кодирования нужны для обеспечения других практик: коллективного владения кодом, парного программирования и рефакторинга. Без единого стандарта выполнять эти практики как минимум сложнее, а в реальности вообще невозможно: группа будет работать в режиме постоянной нехватки времени. Детальные стандарты не требуются, необходимо стандартизировать только важные вещи. Определение наиболее важных объектов стандартизации в XP субъективно.
+
+• Рефакторинг (refactoring). Рефакторинг — это оптимизация существующего кода в сторону упрощения, что предусматривает постоянную работу по упрощению кода. Сохраняя код прозрачным и определяя его элементы всего один раз, программисты сокращают число ошибок, которые впоследствии придется устранять. При реализации каждого нового свойства системы программист должен подумать над тем, можно ли упростить существующий код и как это поможет реализовать новое свойство. Кроме того, нельзя совмещать рефакторинг с дизайном: если создается новый код, рефакторинг надо отложить.
+
+• Парное программирование (pair programming) — одна из самых известных XP-практик. Все программисты должны работать в парах: один пишет код, другой смотрит. Таким образом, необходимо размещать группу программистов в одном месте, что легче всего сделать на территории заказчика (все необходимые члены команды географически находятся в одном месте); XP наиболее успешно работает в нераспределенных коллективах программистов и пользователей.
+
+• 40-часовая рабочая неделя. Программист не должен работать более 8 часов в день. Необходимость сверхурочной работы (overtime) — это четкий индикатор проблемы на данном конкретном направлении разработки; к тому же заказчик не платит за сверхурочную работу в XP. Поиск причин сверхурочной работы и их скорейшее устранение — одно из основных правил.
+
+• Коллективное владение кодом (collective code ownership). Каждый программист в коллективе XP должен иметь доступ к коду любой части системы и вносить изменения в любой код. Обязательное правило: если программист внес изменения и система после этого работает некорректно, то именно этот программист должен исправить ошибки. В противном случае работа системы уподобится тотальному хаосу.
+
+• Частая смена версий (small releases). Минимальная итерация — один день, максимальная — месяц; чем чаще осуществляются релизы, тем больше недостатков системы будет выявлено. Первые релизы помогают выявить недостатки на самых ранних стадиях, далее функциональность системы расширяется (на основании тех же пользовательских историй). Поскольку пользователь включается в процесс разработки начиная с первого релиза, то он оценивает систему и выдает пользовательскую историю плюс feedback. На основании этого определяется следующая итерация: каким будет новый релиз. В XP все направлено на обеспечение непрерывной обратной связи с пользователями.
+
+• Непрерывная интеграция (continuous integration). Интеграция новых частей системы должна происходить как можно чаще, как минимум раз в несколько часов. Основное правило интеграции следующее: интеграцию можно производить, если все тесты проходят успешно. Если тесты не проходят, то программист должен либо внести исправления и тогда интегрировать составные части системы, либо вообще не интегрировать их. Правило это жесткое и однозначное — если в созданной части системы имеется хотя бы одна ошибка, то интеграцию производить нельзя. Частая интеграция позволяет быстрее получить готовую систему, вместо того чтобы тратить на сборку неделю.
+
+• Тестирование (testing). В отличие от большинства остальных методологий тестирование в XP — одно из важнейших составляющих. Экстремальный подход заключается в том, что тесты пишутся до написания кода. Каждый модуль обязан иметь unit test — тест данного модуля; таким образом, в XP осуществляется regression testing (возвратное тестирование, «неухудшение качества» при добавлении функциональности). Большинство ошибок исправляются на стадии кодирования. Тесты пишут сами программисты; любой программист имеет право написать тест для любого модуля. Еще один важный принцип: тест определяет код, а не наоборот (такой подход носит название test-driven development), то есть кусок кода кладется в хранилище тогда и только тогда, когда все тесты прошли успешно, в противном случае данное изменение кода отвергается.
+
+Итак, XP крайне пренебрежительно относится ко всем артефактам процесса разработки, кроме исходного кода. Процесс XP является в высшей степени неформальным, но требует высокого уровня самодисциплины. Если это правило не выполняется, то XP мгновенно превращается в хаотичный и неконтролируемый процесс. XP не требует от программистов написания множества отчетов и построения массы моделей. В XP каждый программист считается квалифицированным работником, который профессионально и с большой ответственностью относится к своим обязанностям. Если в команде этого нет, то внедрять XP абсолютно бессмысленно — лучше для начала заняться перестройкой команды. Риск разработки снижается только в команде, которой XP подходит идеально, во всех остальных случаях XP — это процесс разработки с наиболее высокой степенью риска, поскольку другие методы снижения коммерческих рисков, кроме банального человеческого фактора, в XP просто отсутствуют.
+Риски в XP
+
+Следует выделить риски XP, способные завалить проект, если не учитывать и не предотвращать их.
+
+    * Этап планирования (Planning Game). Программисты реализуют только те функции, которые необходимы для возможностей, выбранных на данной итерации заказчиком. В результате такого решения за кадром остается развитие системы, вследствие чего при разработке возникает необходимость строить «заглушки» и переписывать код.
+    * Постоянное участие заказчика (On-site Customer). Представитель заказчика в период работы над системой находится в команде разработчиков, причем требования к квалификации этого человека или команды весьма высоки. Если заказчик не согласился предоставить персонал уровня экспертов, то проект попадает в группу наиболее высокого риска.
+    * Метафора (Metaphor). Общий вид системы определяется при помощи метафоры или набора метафор, над которыми совместно работают заказчик и программисты. Если не ведется журнал данного процесса и структура наименований не стандартизована, то такой процесс может оказаться бесконечно итерационным.
+    * Простая архитектура (Simple Design). В каждый момент времени разрабатываемая система выполняет все тесты и поддерживает все взаимосвязи, определяемые программистом, не имеет дубликатов кода и содержит минимально возможное количество классов и методов. Это правило кратко можно выразить так: «Каждую мысль формулируй один и только один раз». Данный принцип вступает в противоречие с быстротой написания кода. Без наличия высокой самодисциплины и жестких стандартов кода система немедленно попадает в группу риска.
+    * Частая смена версий (Small releases). Систему запускают в эксплуатацию уже через несколько месяцев после начала реализации, не дожидаясь окончательного разрешения всех поставленных проблем. Периодичность выпуска новых версий может варьироваться от ежедневной до ежемесячной. Протестировать за такой срок более-менее сложный компонент невозможно; заказчик фактически выступает в роли бета-тестера. Системы, к которым предъявляется требование непрерывной надежной работы (так называемое требование 24Ѕ7), входят в группу риска.
+    * Переработка системы (Refactoring). Архитектура системы постоянно эволюционирует. Текущий проект трансформируется, при этом гарантируется правильное выполнение всех тестов. Экстремальное программирование исходит из того, что переделать часть системы всегда можно, причем без особых затрат. Однако практика довольно часто свидетельствует об обратном.
+    * Непрерывная интеграция (Continuous Integration). Новый код интегрируется в существующую систему не позднее чем через несколько часов. После этого система вновь собирается в единое целое и прогоняются все тесты. Если хотя бы один из них не выполняется корректно, внесенные изменения отменяются. В данном случае не всегда понятно, кто именно будет исправлять ошибки, причем не только локальные, но и наведенные неправильным кодом. Проведение комплексных тестов на данном этапе не предполагается; кроме того, изменения сохраняются даже в том случае, когда ошибка обнаружена.
+    * Программирование в паре (Pair Programming). Весь код проекта пишут группы по два человека, использующих одно рабочее место. Человеческий фактор в данном случае играет определяющую роль: пара или работает или нет, третьего не дано.
+    * 40-часовая неделя (40-hour Weeks). Объем сверхурочных работ не может превышать по длительности одну рабочую неделю. Даже отдельные случаи сверхурочных работ, повторяющиеся слишком часто, служат признаком серьезных проблем, которые требуют безотлагательного решения. Как показывает практика применения экстремального программирования (несмотря на целый ряд положительных примеров, приводимых сторонниками данного метода), сверхурочная работа при таком подходе — это правило, а не исключение, и борьба с проблемами в данном случае — явление постоянное. Усиливается она в период замены текущей сырой версии продукта очередной — менее сырой. Если заказчик не получает постоянных доказательств улучшения системы, значит, у вас возникли серьезные проблемы.
+    * Коллективное владение (Collective Ownership). Каждый программист имеет возможность при необходимости в любое время усовершенствовать любую часть кода в системе. Без стандарта контроля исходного кода процесс разработки приобретает абсолютно неконтролируемый характер.
+    * Открытое рабочее пространство (Open Workspace). Команда разработчиков располагается в большом помещении, окруженном комнатами меньшей площади. В центре рабочего пространства устанавливаются компьютеры, на которых работают пары программистов (причем в соответствии с вышеизложенными принципами, все это должно располагаться на территории заказчика, поскольку он весьма активно привлекается к процессу разработки). При наличии территориально распределенной группы разработчиков и заказчиков проект требует стандартизации протокола взаимодействия (быстро, надежно, безотказно) или попадает в группу риска.
+    * Тесты (Unit Tests). Программисты постоянно пишут тесты для модулей (unit tests). Собранные вместе, эти тесты должны работать корректно. Для этапов итерации заказчики пишут функциональные тесты (functional tests), от которых также требуется правильная работа. Однако на практике это не всегда достижимо. Чтобы принять верное решение, необходимо понять, во что обойдется сдача системы с заранее известным дефектом, и сравнить это с ценой задержки на его устранение. Тесты, написанные самими программистами (особенно в условиях сверхурочных работ), не являются полнофункциональными и уж тем более не учитывают особенностей многопользовательской работы. На более продвинутые тесты у разработчиков обычно не хватает времени. Решается данная проблема путем привлечения на определенный срок контакторов, что связано с большой ролью человеческого фактора: поскольку техническая документация изначально отсутствует, то информация передается посредством общения программистов. Хотя, конечно, можно построить систему разработки таким образом, что от начала до конца всем будут заниматься одни и те же люди. К сказанному необходимо добавить, что тестирование системы вовсе не исчерпывается тестами компонентов (units); не менее важны тесты взаимодействия между ними, это же относится и к тестам надежности работы. И тем не менее метод экстремального программирования не предусматривает создания тестов данного класса. Это объясняется тем, что сами подобные тесты могут представлять достаточно сложный код (особенно это касается тестов — имитаторов реальной работы системы). В данной технологии также никак не учитывается еще один важный класс тестов — тесты поведения системы при росте объемов обрабатываемой информации. При высокой частоте изменения версий выполнить такой тест технологически невозможно, поскольку его проведение требует стабильного и неизменного кода проекта, например в течение недели. В таком случае придется или приостанавливать разработку компонентов, или создавать на время проведения теста параллельную версию проекта, которая будет сохраняться неизменной, тогда как другая при этом будет изменяться. Затем нужно будет выполнить процесс слияния кода. Но в этом случае тест придется создавать заново, так как методы экстремального программирования просто не предусматривают разработку средств, позволяющих прогнозировать поведение системы при тех или иных изменениях. Решать данные проблемы в XP предлагается посредством все того же человеческого фактора и самодисциплины.
+    * Не более чем правила (Just Rules). Члены коллектива, работающего по технологии экстремального программирования, обязуются выполнять изложенные правила. Однако это не более чем правила, и команда может в любой момент изменить их, если ее члены достигнут принципиального соглашения по поводу внесенных изменений. Данный принцип серьезно зависит от человеческого фактора; нарушение дисциплины разработки влечет за собой срывы сроков и в результате ведет к краху проекта. 
+
+В итоге мы получаем метод, потенциально обладающий высокой адаптацией к серьезно и часто изменяющимся требованиям к проекту, но в то же время не свободный от ряда принципиальных недостатков и в очень высокой степени зависимый от человеческого фактора.
+
+Таким образом, результат применения метода экстремального программирования может получиться либо экстремально хорошим, либо экстремально плохим.
+Правила Экстремального программирования
+
+Планирование
+
+    * Пишутся User Stories (User stories are written)
+    * Собственно план создается в результате планирования релизов (Release planning creates the schedule)
+    * Выпускать частые небольшие Релизы (Make frequent Small Releases)
+    * Измеряется Скорость проекта (The Project Velocity is measured.)
+    * Проект делится на Итерации (The project is divided into iterations)
+    * Каждая итерация начинается с собрания по планированию (Iteration planning starts each iteration)
+    * Люди постоянно меняются задачами (Move People Around)
+    * Каждый день начинается с утреннего Собрания стоя (A stand-up meeting starts each day)
+    * XP правила корректируются если что-то не так (Fix XP when it breaks) 
+
+Дизайн
+
+    * Простота (Simplicity)
+    * Обязательно выбрать Метафору системы (Choose a system Metaphor)
+    * Использовать CRC карточки для дизайна (Use CRC Cards for design sessions)
+    * Писать Пробные решения для уменьшения риска (Create spike solutions to reduce risk)
+    * Не добавлять никаких функций раньше времени (No functionality is added early)
+    * Рефакторить безжалостно (Refactor whenever and wherever possible) 
+
+Кодирование
+
+    * Заказчик всегда рядом.
+    * Весь код должен соответствовать принятому стандарту.
+    * Весь код должен быть создан парным программированием.
+    * Частая интеграция кода.
+    * Коллективное владение кодом.
+    * Оставлять оптимизацию на потом. 
+
+Тестирование
+
+    * Любой код должен иметь Unit Test (All code must have unit tests)
+    * ВСЕ Unit тесты должны проходить перед отдачей (All code must pass all unit tests before it can be released)
+    * Если найден баг, то тесты корректируются или создаются (When a bug is found tests are created)
+    * Функциональные тесты периодически выполняются и их результаты публикуются (Acceptance tests are run often and the score is published) 
+
+    * http://c2.com/cgi/wiki?ExtremeRules
+    * http://exprogramming.ru/XPRules/XPRules.html
+    * http://www.extremeprogramming.org/rules.html 
+
+Конституция разработки ПО
+
+Как и в любой другой теории, в XP есть аксиомы, на основе которых строится все остальное. Поскольку управление проектом - это скорее социология чем математика, то эти аксиомы выражаются в виде Билля о правах. Билль о правах Заказчика
+
+    * У Вас есть право иметь общий план, знать что может быть сделано, когда и какой ценой.
+    * У Вас есть право получить наибольшую пользу от каждой недели работы программистов.
+    * У Вас есть право видеть прогресс в виде работающей системы, которая проверяется выполнением периодических тестов, которые Вы определили.
+    * У Вас есть право передумать, менять функциональность и менять приоритеты без необходимости платить высокую цену за это.
+    * У Вас есть право быть в курсе изменений в сроках заранее, чтобы иметь возможность изменить объемы работ чтобы закончить все к выбранной дате. В любой момент Вы можете прервать проект и все равно иметь работающую систему, выполняющую все функции, за которые Вы уже заплатили. 
+
+Билль о правах Разработчика
+
+    * У Вас есть право знать что необходимо сделать с четкой расстановкой приоритетов.
+    * У Вас есть право всегда делать качественную работу.
+    * У Вас есть право просить и получать помощь коллег, менеджеров и заказчиков.
+    * У Вас есть право делать и корректировать свои собственные оценки обьемов работы.
+    * У Вас есть право самим брать на себя ответственность, а не получать ее назначением. 
+
+TODO: ЗАБРАТЬ ВСЁ !!!
+
+    * http://www.extremeprogramming.org/rules.html 
+
+An Evolving Book about Extreme Programming with Perl
+Core Values
+
+XP is built on four core values: communication, simplicity, feedback, and courage. The values reinforce each other to form a stable structure as shown in the figure: Core Values
+
+The four values give the people in XP projects a firm foundation to stand on, the why for the how. Unlike plan-driven software methodologies mentioned in The Problem, XP is people-driven. We value people over process.
+
+The idea of giving people reasons (core values) for what they do (practices) is not new. For example, before XP was a twinkle in Kent Beck's eye, John Young, then CEO of Hewlett-Packard, stated, "We distinguish between core values and practices; the core values don't change, but the practices might."[1] It's important to trust people to judge the validity of a practice for their particular job. They need a value system to frame their judgments so that a person can change a practice without undermining the goals of an organization.
+
+The values relate to each other to form a framework. Without these relationships, the values would not hold together, and people would be less likely to accept and to work with them. The tetrahedron symbolizes the importance of the bonds between the values. As you read through the descriptions in the following sections, you'll see how the values support each other and the practices. Communication
+
+   A little Consideration, a little Thought for Others, makes all the difference.
+   -- Eeyore (A. A. Milne)
+
+Software is developed as quickly as the communication links in the project allow. The customer communicates her requirements to programmers. The programmers communicate their interpretation of the requirements to the computer. The computer communicates with its users. The users communicate their satisfaction with the software to the customer.
+
+Communication in XP is bidirectional and is based on a system of small feedback loops. The customer asks the users what they want. The programmers explain technical difficulties and ask questions about the requirements. The computer notifies the programmers of program errors and test results.
+
+In an XP project, the communication rules are simple: all channels are open at all times. The customer is free to talk to the programmers. Programmers talk to the customer and users. Unfettered communication mitigates project risk by reducing false expectations. All stakeholders know what they can expect from the rest of the team. Simplicity
+
+   Pooh hasn't much Brain, but he never comes to any harm. He does silly things and they turn out right.
+   -- Piglet (A. A. Milne)
+
+We all want simple designs and simple implementations, but simple is an abstract concept, difficult to attain in the face of complexities. XP takes simplicity to the extreme with practical guidelines:
+
+    * Do the simplest thing that could possibly work (DTSTTCPW),
+    * Represent concepts once and only once (OAOO),
+    * You aren't going to need it (YAGNI), and
+    * Remove unused function. 
+
+Do the simplest thing that could possibly work (DTSTTCPW) means you implement the first idea that comes to mind. This can be scary. Rely on your courage to try out the idea. Remember that failure is an important part of creation. It is unlikely the simplest idea is what you will end up with. However, it's also unlikely you can anticipate what's wrong with your simple solution until you try it out. Let the feedback system guide your implementation. DTSTTCPW is simplicity as in fast and easy.
+
+Once and only once (OAOO) helps you maintain your agility by reducing the size of your code base. If you let conceptual redundancy permeate your system, you have to spend more and more time rooting out faults. Every time you copy-and-paste, you take one more step closer to bloatware. Each copy creates an implicit coupling, which must be communicated to the rest of the team. Be courageous, just say no to your mouse. Say yes to refactoring the code for re-use. OAOO is simplicity as in few interchangeable parts.
+
+You aren't going to need it (YAGNI) is a popular and fun expletive. If you can solve the immediate problem without introducing some feature, that's YAGNI! And, you simplified your problem by omission. YAGNI is a corollary of OAOO. If you don't have to implement the feature in the first place, your system just took a step away from bloatware. YAGNI is simplicity as in basic.
+
+Sometimes you add a function for good reason but later find out the reason is no longer valid. At this point you should delete the function. It is unnecessary complexity. It shouldn't require much courage, because the code is still there in your source repository. [COMMENT: link to logistics.] You can always pull it out if you need it again. Removing dead code is simplicity as in pure and uncluttered. Feedback
+
+   Well, either a tail is or isn't there. You can't make a mistake about it. And yours isn't there!
+   -- Pooh (A. A. Milne)
+
+The more immediate feedback, the more efficiently a system functions. A simple example can be found in the shower. Some showers respond instantly to changes in the faucet handle. Other showers don't. I'm sure you've experienced showers installed by Central Services engineers from the movie Brazil.[2] You turn on the shower, adjust the temperature, and hop into a hailstorm or The Towering Inferno.[3] After you peel yourself off the shower wall, you adjust the temperature, and wait a bit longer before timidly stepping in again. The long delay in the system makes showering unpleasant and inefficient.
+
+For many customers, this is what software development is like. You request a change, and it is delivered many months later in some big release. Often the change fails to meet your expectations, which means another change request with yet another long delay.
+
+XP is like a well-designed shower. You request a change and out comes software. Adjustments are visible immediately. The customer sees her requirements or corrections implemented within weeks. Programmers integrate their changes every few hours, and receive code reviews and test results every few minutes. Users see new versions every month or two.[4]
+
+The value of immediate, real world feedback should not be underestimated. One of the reasons for the success of the Web is the abundance of structured and immediate feedback from users. Developers see errors in real time, and contract all input and output that causes Web application failures. Users benefit from running the latest version of the software, and seemingly on demand fault corrections. When people talk about the enduring value of the Web in the distant future, I predict they will value the extreme acceleration of user feedback and software releases. The impact of this feedback on quality and development efficiency is what differentiates Web applications.
+
+XP reduces project risk by taking iterative development to the extreme. The customer's involvement does not end at the planning phase, so requirements errors are reconciled almost immediately. The system's internal quality is maintained by programmers working in pairs who are striving for simplicity. Automated testing gives everybody feedback on how well the system is meeting expectations.
+
+XP uses feedback to integrate towards a solution, rather than trying to get it through a discontinuity.[5] Courage
+
+   It is hard to be brave, when you're only a Very Small Animal.
+   -- Piglet (A. A. Milne)
+
+Fear is a prime motivator, or as Napoleon Bonaparte put it, "There are two levers for moving men: interest and fear." With courage, our relationships take on a new quality: trust. XP helps build the bonds of trust by repeatedly exposing people to small successes.
+
+Courage is required at all levels. Is this solution too simple? Is it too complex? Does this test cover all the cases which could possibly break? Will the programmers understand what I mean by the story? Will we make it to Comdex without a detailed schedule?
+
+We overcome fear, uncertainty, and doubt in XP with courage backed by the other three values. A simple system is harder to break than a complex one. Multilevel, rapid feedback lets us know quickly when our courageous changes fail. Open communication means we don't have to face our fears alone. Our team members will support us. All we have to do is speak of our fears as openly as Piglet did in the epigraph to this section. And, Rabbit finds the right words to support him[6]:
+
+   "It is because you are a very small animal that you will be Useful in the adventure before us."
+
+   Piglet was so excited at the idea of being Useful that he forgot to be frightened any more [...] he could hardly sit still, he was so eager to begin being useful at once. 
+
+Sometimes we feel as small and ineffectual as Piglet. During these downtimes, it's likely one or more of our team members feel as courageous as Rabbit or Pooh. XP accepts that people's emotions vary, so XP uses team interactions to keep the project stable and to provide emotional support in those inevitable, difficult times.
+
+Courage is a double-edged sword. You needed to overcome your fears, but too much courage can be dangerous. XP uses small steps to promote courage and keep it in check. Team members see a continuous flow of failures and successes. XP uses small, regulated doses to discourage excess and encourage success. The Practices
+
+XP's practices embody the values described in the previous sections. In his book Extreme Programming Explained Kent Beck defines the 12 practices as follows (quoted verbatim):
+
+   1. The Planning Game Quickly determine the scope of the next release by combining business priorities and technical estimates. As reality overtakes the plan, update the plan.
+   2. Small releases Put a simple system into production quickly, then release new versions on a very short cycle.
+   3. Metaphor Guide all development with a simple shared story of how the whole system works.
+   4. Simple design The system should be designed as simply as possible at any given moment. Extra complexity is removed as soon as it is discovered.
+   5. Testing Programmers continually write unit tests, which must run flawlessly for development to continue. Customers write tests demonstrating the features are finished.
+   6. Refactoring Programmers restructure the system without changing its behavior to remove duplication, improve communication, simplify, or add flexibility.
+   7. Pair programming All production code is written with two programmers at one machine.
+   8. Collective ownership Anyone can change any code anywhere in the system at any time.
+   9. Continuous integration Integrate and build the system many times a day, every time a task is completed.
+  10. 40-hour week Work no more than 40 hours a week as a rule. Never work overtime a second week in a row.
+  11. On-site customer Include a real, live user on the team, available full-time to answer questions.
+  12. Coding standards Programmers write all code in accordance with rules emphasizing communication through the code. 
+
+These 12 simple practices realize the four core values. The remainder of this book explains how to implement the practices in detail. Before we get into implementation, let's briefly discusses how you might adopt XP in your organization.
+Ron Jeffries. What is Extreme Programming?
+
+11/08/2001
+
+    * http://www.xprogramming.com/xpmag/whatisxp.htm 
+
+Extreme Programming is a discipline of software development based on values of simplicity, communication, feedback, and courage. It works by bringing the whole team together in the presence of simple practices, with enough feedback to enable the team to see where they are and to tune the practices to their unique situation.
+
+In Extreme Programming, every contributor to the project is an integral part of the "Whole Team". The team forms around a business representative called "the Customer", who sits with the team and works with them daily.
+
+    * Core Practices: Whole Team 
+
+Extreme Programming teams use a simple form of planning and tracking to decide what should be done next and to predict when the project will be done. Focused on business value, the team produces the software in a series of small fully-integrated releases that pass all the tests the Customer has defined.
+
+    * Core Practices: Planning Game, Small Releases, Customer Tests 
+
+Extreme Programmers work together in pairs and as a group, with simple design and obsessively tested code, improving the design continually to keep it always just right for the current needs.
+
+    * Core Practices: Simple Design, Pair Programming, Test-Driven Development, Design Improvement 
+
+The Extreme Programming team keeps the system integrated and running all the time. The programmers write all production code in pairs, and all work together all the time. They code in a consistent style so that everyone can understand and improve all the code as needed.
+
+    * Core Practices: Continuous Integration, Collective Code Ownership, Coding Standard 
+
+The Extreme Programming team shares a common and simple picture of what the system looks like. Everyone works at a pace that can be sustained indefinitely.
+
+    * Core Practices: Metaphor, Sustainable Pace 
+
+Core Practices Whole Team
+
+All the contributors to an XP project sit together, members of one team. This team must include a business representative -- the "Customer" -- who provides the requirements, sets the priorities, and steers the project. It's best if the Customer or one of her aides is a real end user who knows the domain and what is needed. The team will of course have programmers. The team may include testers, who help the Customer define the customer acceptance tests. Analysts may serve as helpers to the Customer, helping to define the requirements. There is commonly a coach, who helps the team keep on track, and facilitates the process. There may be a manager, providing resources, handling external communication, coordinating activities. None of these roles is necessarily the exclusive property of just one individual: Everyone on an XP team contributes in any way that they can. The best teams have no specialists, only general contributors with special skills.
+
+Planning Game
+
+XP planning addresses two key questions in software development: predicting what will be accomplished by the due date, and determining what to do next. The emphasis is on steering the project -- which is quite straightforward -- rather than on exact prediction of what will be needed and how long it will take -- which is quite difficult. There are two key planning steps in XP, addressing these two questions:
+
+Release Planning is a practice where the Customer presents the desired features to the programmers, and the programmers estimate their difficulty. With the cost estimates in hand, and with knowledge of the importance of the features, the Customer lays out a plan for the project. Initial release plans are necessarily imprecise: neither the priorities nor the estimates are truly solid, and until the team begins to work, we won't know just how fast they will go. Even the first release plan is accurate enough for decision making, however, and XP teams revise the release plan regularly.
+
+Iteration Planning is the practice whereby the team is given direction every couple of weeks. XP teams build software in two-week "iterations", delivering running useful software at the end of each iteration. During Iteration Planning, the Customer presents the features desired for the next two weeks. The programmers break them down into tasks, and estimate their cost (at a finer level of detail than in Release Planning). Based on the amount of work accomplished in the previous iteration, the team signs up for what will be undertaken in the current iteration.
+
+These planning steps are very simple, yet they provide very good information and excellent steering control in the hands of the Customer. Every couple of weeks, the amount of progress is entirely visible. There is no "ninety percent done" in XP: a feature story was completed, or it was not. This focus on visibility results in a nice little paradox: on the one hand, with so much visibility, the Customer is in a position to cancel the project if progress is not sufficient. On the other hand, progress is so visible, and the ability to decide what will be done next is so complete, that XP projects tend to deliver more of what is needed, with less pressure and stress.
+
+Customer Tests
+
+As part of presenting each desired feature, the XP Customer defines one or more automated acceptance tests to show that the feature is working. The team builds these tests and uses them to prove to themselves, and to the customer, that the feature is implemented correctly. Automation is important because in the press of time, manual tests are skipped. That's like turning off your lights when the night gets darkest.
+
+The best XP teams treat their customer tests the same way they do programmer tests: once the test runs, the team keeps it running correctly thereafter. This means that the system only improves, always notching forward, never backsliding. Small Releases
+
+XP teams practice small releases in two important ways:
+
+First, the team releases running, tested software, delivering business value chosen by the Customer, every iteration. The Customer can use this software for any purpose, whether evaluation or even release to end users (highly recommended). The most important aspect is that the software is visible, and given to the customer, at the end of every iteration. This keeps everything open and tangible.
+
+Second, XP teams release to their end users frequently as well. XP Web projects release as often as daily, in house projects monthly or more frequently. Even shrink-wrapped products are shipped as often as quarterly.
+
+It may seem impossible to create good versions this often, but XP teams all over are doing it all the time. See Continuous Integration for more on this, and note that these frequent releases are kept reliable by XP's obsession with testing, as described here in Customer Tests and Test-Driven Development.
+
+Simple Design
+
+XP teams build software to a simple design. They start simple, and through programmer testing and design improvement, they keep it that way. An XP team keeps the design exactly suited for the current functionality of the system. There is no wasted motion, and the software is always ready for what's next.
+
+Design in XP is not a one-time thing, or an up-front thing, it is an all-the-time thing. There are design steps in release planning and iteration planning, plus teams engage in quick design sessions and design revisions through refactoring, through the course of the entire project. In an incremental, iterative process like Extreme Programming, good design is essential. That's why there is so much focus on design throughout the course of the entire development. Pair Programming
+
+All production software in XP is built by two programmers, sitting side by side, at the same machine. This practice ensures that all production code is reviewed by at least one other programmer, and results in better design, better testing, and better code.
+
+It may seem inefficient to have two programmers doing "one programmer's job", but the reverse is true. Research into pair programming shows that pairing produces better code in about the same time as programmers working singly. That's right: two heads really are better than one!
+
+Some programmers object to pair programming without ever trying it. It does take some practice to do well, and you need to do it well for a few weeks to see the results. Ninety percent of programmers who learn pair programming prefer it, so we highly recommend it to all teams.
+
+Pairing, in addition to providing better code and tests, also serves to communicate knowledge throughout the team. As pairs switch, everyone gets the benefits of everyone's specialized knowledge. Programmers learn, their skills improve, they become move valuable to the team and to the company. Pairing, even on its own outside of XP, is a big win for everyone. Test-Driven Development
+
+Extreme Programming is obsessed with feedback, and in software development, good feedback requires good testing. Top XP teams practice "test-driven development", working in very short cycles of adding a test, then making it work. Almost effortlessly, teams produce code with nearly 100 percent test coverage, which is a great step forward in most shops. (If your programmers are already doing even more sophisticated testing, more power to you. Keep it up, it can only help!)
+
+It isn't enough to write tests: you have to run them. Here, too, Extreme Programming is extreme. These "programmer tests", or "unit tests" are all collected together, and every time any programmer releases any code to the repository (and pairs typically release twice a day or more), every single one of the programmer tests must run correctly. One hundred percent, all the time! This means that programmers get immediate feedback on how they're doing. Additionally, these tests provide invaluable support as the software design is improved.
+
+Design Improvement
+
+Extreme Programming focuses on delivering business value in every iteration. To accomplish this over the course of the whole project, the software must be well-designed. The alternative would be to slow down and ultimately get stuck. So XP uses a process of continuous design improvement called Refactoring, from the title of Martin Fowler's book, "Refactoring: Improving the Design of Existing Code".
+
+The refactoring process focuses on removal of duplication (a sure sign of poor design), and on increasing the "cohesion" of the code, while lowering the "coupling". High cohesion and low coupling have been recognized as the hallmarks of well-designed code for at least thirty years. The result is that XP teams start with a good, simple design, and always have a good, simple design for the software. This lets them sustain their development speed, and in fact generally increase speed as the project goes forward.
+
+Refactoring is, of course, strongly supported by comprehensive testing to be sure that as the design evolves, nothing is broken. Thus the customer tests and programmer tests are a critical enabling factor. The XP practices support each other: they are stronger together than separately.
+
+Continuous Integration
+
+Extreme Programming teams keep the system fully integrated at all times. We say that daily builds are for wimps: XP teams build multiple times per day. (One XP team of forty people builds at least eight or ten times per day!)
+
+The benefit of this practice can be seen by thinking back on projects you may have heard about (or even been a part of) where the build process was weekly or less frequently, and usually led to "integration hell", where everything broke and no one knew why.
+
+Infrequent integration leads to serious problems on a software project. First of all, although integration is critical to shipping good working code, the team is not practiced at it, and often it is delegated to people who are not familiar with the whole system. Second, infrequently integrated code is often -- I would say usually -- buggy code. Problems creep in at integration time that are not detected by any of the testing that takes place on an unintegrated system. Third, weak integration process leads to long code freezes. Code freezes mean that you have long time periods when the programmers could be working on important shippable features, but that those features must be held back. This weakens your position in the market, or with your end users. Collective Code Ownership
+
+On an Extreme Programming project, any pair of programmers can improve any code at any time. This means that all code gets the benefit of many people's attention, which increases code quality and reduces defects. There is another important benefit as well: when code is owned by individuals, required features are often put in the wrong place, as one programmer discovers that he needs a feature somewhere in code that he does not own. The owner is too busy to do it, so the programmer puts the feature in his own code, where it does not belong. This leads to ugly, hard-to-maintain code, full of duplication and with low (bad) cohesion.
+
+Collective ownership could be a problem if people worked blindly on code they did not understand. XP avoids these problems through two key techniques: the programmer tests catch mistakes, and pair programming means that the best way to work on unfamiliar code is to pair with the expert. In addition to ensuring good modifications when needed, this practice spreads knowledge throughout the team. Coding Standard
+
+XP teams follow a common coding standard, so that all the code in the system looks as if it was written by a single -- very competent -- individual. The specifics of the standard are not important: what is important is that all the code looks familiar, in support of collective ownership.
+
+Metaphor
+
+Extreme Programming teams develop a common vision of how the program works, which we call the "metaphor". At its best, the metaphor is a simple evocative description of how the program works, such as "this program works like a hive of bees, going out for pollen and bringing it back to the hive" as a description for an agent-based information retrieval system.
+
+Sometimes a sufficiently poetic metaphor does not arise. In any case, with or without vivid imagery, XP teams use a common system of names to be sure that everyone understands how the system works and where to look to find the functionality you're looking for, or to find the right place to put the functionality you're about to add. Sustainable Pace
+
+Extreme Programming teams are in it for the long term. They work hard, and at a pace that can be sustained indefinitely. This means that they work overtime when it is effective, and that they normally work in such a way as to maximize productivity week in and week out. It's pretty well understood these days that death march projects are neither productive nor produce quality software. XP teams are in it to win, not to die. Conclusion
+
+Extreme Programming is a discipline of software development based on values of simplicity, communication, feedback, and courage. It works by bringing the whole team together in the presence of simple practices, with enough feedback to enable the team to see where they are and to tune the practices to their unique situation. Picture
+
+Here's a picture showing the practices and the main "cycles" of XP.
+
+Archival Reference
+
+The original XProgramming page on this topic is still available for your reference.
+Статьи XP2
+"Экстремальное программирование - 2.0", Микеле Марчези
+
+    * http://www.maxkir.com/sd/extreme_programming_2.html 
+
+«В реальном мире даже программисты могут оказаться нормальными людьми. Экстремальное программирование – это возможность проверить себя, быть собой, возможность понять, что все это время проблема была вовсе не в вас, а в том, что вы выбрали себе неправильное окружение».
+
+Кент Бек («Экстремальное программирование», второе издание)
+
+Первое издание книги Кента Бека «Extreme Programming Explained – Embrace Change» (в русском переводе «Экстремальное программирование») увидело свет в октябре 1999 года. Экстремальное программирование (ХР) можно любить, можно ненавидеть, а вот отмахнуться как от чего-то несущественного уже нельзя . Эта книга, продававшаяся огромными тиражами и переведенная на десятки языков, открыла дорогу всему многообразию гибких методологий. Гибкие методологии можно применять полностью или частично, не применять вовсе, но ни один серьезный специалист в области программирования не может оставить их без внимания. Теперь каждое руководство по программированию обязательно включает в себя главу о гибких методологиях и экстремальном программировании.
+
+Пять лет спустя Кент Бек опять привлек к себе внимание публикацией второй версии этой книги – на этот раз в соавторстве с Цинтией Андрес (Cynthia Andres). Будьте уверены, речь идет не о простом переиздании с небольшими исправлениями. Во втором издании авторы критически обозревают все, что произошло в этой области за последние пять лет, и практически полностью переосмысливают экстремальное программирование (правда, сохраняя исходные принципы методологии, или по меньшей мере, желание им следовать).
+
+В первом издании книги экстремальное программирование насчитывало четыре основных ценности, пятнадцать базовых принципов и двенадцать практик. Более того, Кент Бек четко и недвусмысленно писал, что экстремальным программированием может считаться только полное и безоговорочное следование всем этим знаменитым двенадцати практикам. Во втором издании никаких двенадцати практик нет уже и в помине! У новой версии экстремального программирования есть пять основных ценностей, четырнадцать принципов, тринадцать главных практик и одиннадцать дополнительных. При этом новые 24 практики лишь отчасти напоминают исходные двенадцать. Две из них, метафора и стандарты написания кода, и вовсе исчезли.
+
+В этом обзоре я постараюсь кратко описать новые концепции экстремального программирования, а вам, уважаемые читатели, оставлю удовольствие читать оригинал – книгу Кента Бека и Цинтии Андрес «Экстремальное программирование: что делать, когда всё постоянно изменяется», изданную в издательстве Addison Wesley в 2005 году.
+Основные ценности
+
+Новая версия экстремального программирования базируется уже на пяти ценностях, которые, как считает Бек, являются главными слагательными успеха любого проекта по разработке программного обеспечения. Основные ценности – это не только руководство по разработке ПО, это еще и источник вдохновения всей методологии. Четыре ценности вы знаете по первой книге. Теперь к ним добавляется пятая – уважение. Итак, вот основные ценности экстремального программирования во втором издании:
+
+Общение: бОльшая часть проблем и ошибок всегда связана с недостатком общения. Следовательно, необходимо максимально увеличить общение между членами команды программистов, а также между программистами и заказчиками. Самым эффективным является прямое общение между людьми. Нельзя также забывать и о другом виде общения – между артефактами и людьми, которые их читают. Все артефакты должны нести адекватную, неустаревшую информацию. Кроме того, их должно быть удобно читать.
+
+Простота: самая рациональная их всех ценностей ХР. Заключается она в следующем: «Останавливайся на самом простом решении, которое позволяет выполнить задачу». Однако простое решение (именно простое, а не примитивное) как раз труднее всего найти. Чем проще решение, тем больше за ним стоит опыта, идей и тяжелого труда. Такие решения требуют общения, для них требуется гораздо меньше кода, они улучшают качество программного приложения. Основное требование звучит как «не стоит заранее планировать повторное использование одного и того же решения; чем проще система, тем легче добавлять в нее функциональность по мере необходимости».
+
+Обратная связь: у вас всегда должна быть возможность определить, насколько система, которую вы пишите, далека от необходимого набора функциональности. Лучшие инструменты обратной связи – это непосредственное общение с заказчиком и набор автоматизированных тестов, который растет вместе с системой. С одной стороны, обратная связь является важной составляющей общения: чтобы узнать мнение заказчика, вам надо с ним общаться. С другой, полученные таким образом сведения становятся темой для последующего общения. Обратная связь помогает найти простое решение. Зачастую простые решения достигаются методом проб и ошибок. И опять-таки, чем проще система, тем легче поддерживать обратную связь.
+
+Смелость, кураж: все существующие методологии и процессы разработки предназначены для того, чтобы обуздать и уменьшить наш страх. Чем больше страха мы испытываем перед каким-нибудь проектом, тем серьезнее и «тяжелее» должна быть методология. Общение, простота и обратная связь дают нам возможность смело приступать даже к серьезному рефакторингу системы или к большим изменениям в требованиях. Смелость и кураж сами по себе довольно опасны, но в совокупности с остальными ценностями - это мощнейший инструмент для осуществления больших изменений в системе.
+
+Уважение: все четыре предыщущие ценности подразумевают уважение членов команды друг к другу. Если программисты не уважают друг друга и свою работу, то ни одна методология им не поможет. Вы должны проявлять уважение к коллегам по работе, их труду, к вашей компании, а также к тем, в чью жизнь войдет написанное вами приложение. Как видите, в основных ценностях экстремального программирования нет никаких советов относительно того, как руководить проектом или как писать программный код. Это описывается в практиках ХР, но прежде, чем перейти к практикам, мы должны остановиться на принципах.
+Принципы экстремального программирования
+
+В новой версии ХР принципы являются как-бы промежуточным звеном между весьма синтетичными и абстрактными ценностями и практиками, в которых даются конкретные указания по разработке ПО. Теперь в ХР различают следующие четырнадцать принципов:
+
+Человечность: программное обеспечение создается людьми, поэтому человеческий фактор остается основным ключом к разработке качественного программного продукта. Экстремальное программирование ставит своей целью выгоду как отдельных людей, так и целых организаций, чтобы польза от использования методологии ощущалась обеими сторонами. Конечно же, здесь нужен баланс: если мы переоценим нужды коллектива разработчиков, это может привести к снижению продуктивности труда, люди не будут работать подобающим образом, что приведет компанию к убыткам. А убытки, в свою очередь, могут привести к закрытию проекта или даже всей фирмы, что больно ударит по людям, которые в ней работали. Если же вы переоцените нужды организации, люди начнут перерабатывать, между ними участятся конфликты. Это тоже приведет компанию к потерям. В новой книге Кент приводит следующий список потребностей команды:
+
+    * Базовая безопасность – необходимость справляться с работой;
+    * Достижения – чувство собственной полезности на работе;
+    * Принадлежность – способность причислять себя к группе;
+    * Рост – возможность расширять и углублять свои навыки, видеть новые перспективы;
+    * Близость – способность понимать других и быть понятым. 
+
+Economics: программное обеспечение, которое вы производите, должно обладать некой ценностью (business value). В ХР есть два ключевых экономических момента: ценность программного продукта на текущий момент и ценность дополнительных возможностей (value of options). Согласно первой, доллар, заработанный сегодня, стоит больше, чем доллар заработанный завтра, поэтому чем быстрее мы выпускаем программный продукт и начинаем зарабатывать деньги, тем больше прибыль. Это напрямую связано с ценой дополнительных возможностей программы. Так, если вы можете отложить архитектурные изменения до того момента, когда их необходимость станет совершенно очевидной, то сбережете своей компании большие деньги. Практики ХР приветствуют инкрементальный дизайн, внимание к тому, что приносит выгоду клиенту, и отношение к разработке, которое можно было бы охарактеризовать словами «плати за то, чем пользуешься». Все это значительно упрощает процесс принятия решений.
+
+Взаимная выгода: всякая деятельность должна приносить выгоду задействованным людям и организациям. Это, пожалуй, сам важный из принципов ХР, хотя его очень сложно придерживаться. Из любой проблемы легко найти выход, при котором пострадает одна из взаимодействующих сторон. И нередко нам очень хочется идти именно таким путем. Однако подобные решения всегда ухудшают положение, так как они портят отношения и разрушают рабочую среду. Чтобы не увеличивать количество проблем, вам понадобятся навыки, которые обеспечат выгодное сотрудничество и вам, и вашим клиентам, причем и сейчас, и в будущем.
+
+Сходство: в природе часто встречаются фрактальные структуры, очень похожие между собой, но существующие на разных уровнях. Точно такие же принципы можно применить и к разработке программного обеспечения: мы можем использовать одни и те же идеи для решения проблем, возникающих в разных контекстах. Например, одна из основных составляющих методологии ХР состоит в том, чтобы сначала написать тесты, которые заведомо не будут проходить, а уже потом – написать код, после которого тесты пройдут успешно. То же самое можно «масштабировать» на разные уровни временной шкалы: в течение целого квартала вы составляете перечень задач, которые должно решать приложение, а потом короткие «рассказы», которые описывают их более подробно. В начале недели вы выбираете те «рассказы», где описаны задачи, над которыми вы будете работать в течение этой недели, а уже потом пишете тесты приемки (acceptance tests) и, в конце концов, приступаете к программному коду, благодаря которому эти тесты будут работать. Если сузить временной промежуток до нескольких часов – вы сначала пишете unit тесты, а затем код, который обеспечивает их выполнение.
+
+Все лучше и лучше: постоянное развитие и движение вперед – ключ к пониманию ХР. Конечно, совершенство недостижимо, однако надо постоянно к нему стремиться. Каждый день надо стараться работать как можно лучше и придумывать новые способы сделать работу еще более эффективной. Таким образом, с каждой итерацией продукт становится все лучше и лучше – как с точки зрения качества кода, так и с точки зрения функциональных возможностей. Это обеспечивается за счет отзывов заказчика, автоматических тестов, и конечно, самой команды разработчиков.
+
+Разнообразие: если все члены команды похожи друг на друга, работа в ней может оказаться очень комфортной, но малоэффективной. Лучше, когда в команде есть представители из разных областей знаний, разные характеры. Это позволяет лучше находить и решать проблемы. Конечно, в такой команде могут возникать конфликты, которые придется как-то решать. Однако если вы способны разрешать конфликтные ситуации и определять лучшее из альтернативных мнений, отдавайте предпочтение «неоднородным» командам. Они умеют находить неожиданные решения в сложных ситуациях, что в нашей области очень важно.
+
+Обдумывание: эффективно работающие программисты не просто пишут код. Они спрашивают себя, как они работают и почему они делают данную систему именно так, а не иначе. Людям нужно четко видеть причины, стоящие за успехом (или провалом) их продукта. Не надо прятать ошибки. Куда полезнее открыто признать их и попытаться вынести из них полезный урок на будущее. Во время ежеквартальных и еженедельных итераций отведите некоторое время на обсуждение того, как движется проект, и какие улучшения можно было бы внести в процесс разработки. Но не надо слишком уж заострять на этом внимание. В нашей индустрии есть много примеров того, как программисты настолько переключались на совершенствование процесса работы, что на саму работу у них не оставалось времени! Сначала идет работа – потом обдумывание – потом снова работа.
+
+Течение (flow): в данном случае, это означает постоянную размеренную разработку качественного программного обеспечения, включающую в себя все соответствующие виды деятельности. В методологии ХР принято считать, что все виды деятельности по разработке ПО должны протекать непрерывно, подобно потоку. Этим она отличается от других методологий, где разработка распадается на последовательность определенных фаз, последней из которых является выпуск программного продукта. Только благодаря непрерывному течению разработки программисты могут рано узнать мнение заказчиков о системе, получить уверенность, что работа ведется в должном направлении, а кроме того, избежать трудностей последней интеграции, этого вечного «трам-тарарама» перед выпуском продукта.
+
+Новые возможности: в проблемах надо видеть прежде всего возможность что-то улучшить. Проблемы неизбежны, но чтобы достичь совершенства мало просто «решить проблему». Надо превратить проблему в возможность узнать что-то новое, найти лучшее решение. Может быть, у вас не получается строить долгосрочные планы? Тогда попробуйте составить планировать ежеквартально, и каждые три месяца корректируйте то, что напланировали. В вашей команде есть программист, который делает слишком много ошибок? Посадите его программировать в паре с гуру! Практики методологии ХР доказали свою эффективность именно тем, что решали старые проблемы, существовавшие, пожалуй, со времени появления самой отрасли производства ПО.
+
+Избыточность: действительно сложные или критичные для проекта проблемы надо решать несколькими способами одновременно. В этом случае, если одно решение окажется несостоятельным, другие могут помочь предотвратить катастрофу. В таких случаях в итоге избыточность с лихвой окупается. Проблемы, связанные с функциональностью программного обеспечения, нужно искать и решать различными способами: парным программированием, автоматизированными тестами, работой в общем помещении, активным вовлечением заказчика, и т.д. Разумеется, в этом есть некоторая избыточность – многие недостатки будут обнаруживаться по нескольку раз. Однако качество продукта – самая главная цель – все окупит. Впрочем, если с помощью какой-то практики удается обнаружить только уже известные дефекты, ее надо отменять за ненадобностью.
+
+Неудачи: если что-то не получается, не бойтесь неудач. Не знаете, как лучше написать часть новой функциональности? Попробуйте сделать это тремя-четырьмя разными способами. Даже если все окажутся неудачными, вы многому научитесь. Полезны ли неудачи? Да, если мы выносим из них ценные уроки. Поэтому не бойтесь неудач. Куда хуже откладывать что-то до последнего момента, пытаясь найти единственно верное решение.
+
+Качество: качество всегда должно быть на высоте. Выпускать продукт низкого качества, чтобы сэкономить средства или время, - заведомо неправильное решение. Как раз напротив, работа над качеством системы способствует улучшению других его свойств, например, производительности и эффективности. Не стоит, однако, путать качество и перфекционизм. Если вы откладываете активную фазу разработки, в надежде найти идеальное решение, вы не будете продвигаться вперед. Гораздо эффективнее попробовать какой-то вариант, выяснить, в чем его недостатки, и быстро их исправить.
+
+Маленькими шажками: если долго готовить серьезные большие изменения, а потом внести их в систему «одним махом», весь проект может оказаться под угрозой срыва. Гораздо надежнее продвигаться вперед маленькими шажками – пусть шаги эти невелики, зато вы можете быть уверены, что проект движется в нужном направлении. Кроме того, маленькими шажками можно двигаться довольно быстро: за короткое время команда программистов может сделать очень много таких «шажков», при этом постоянно получать отзывы и корректировать продвижение работ. Еще один плюс небольших изменений состоит в том, что небольшое изменение, как правило, может привести лишь к небольшим проблемам. А вот чем больше шаг и чем серьезнее изменения, тем больший потенциальный вред может он принести всему проекту.
+
+Ответственность: ответственность можно взять на себя только в добровольном порядке. Конечно, любой начальник может приказать программисту: «Делай то, делай это», но такой подход не работает. Вы неизбежно будете требовать или гораздо меньше того, что нужно, или – что случается чаще – гораздо больше того, что может данный программист. Поэтому получая указания, человек сам должен принять решение: берет ли он на себя ответственность, или же пусть этой проблемой занимается кто-то другой.
+Практики ХР
+
+Новая версия экстремального программирования насчитывает тринадцать основных практик и одиннадцать дополнительных. Вначале нужно применить основные практики, причем каждая из них может соответствующим образом улучшить процесс разработки. Только после этого можно приступать к дополнительным практикам, которые требуют опыта работы с основными практиками, и практически неприменимы без них.
+
+В целом же можно сказать, что все 24 практики очень важны для процесса разработки, и должны быть применены полностью. Только так проект получит выгоду от экстремального программирования.
+
+Сам Кент Бек никак не классифицирует практики, однако мне кажется уместным разделить их на четыре категории:
+
+    * Анализ требований и планирование;
+    * Команда и человеческий фактор;
+    * Проектирование;
+    * Программирование и выпуск продукта. 
+
+Обращаю ваше внимание на то, что многие практики можно было бы отнести сразу к нескольким категориям. Так, «парное программирование» значится у меня в группе «Команда и человеческий фактор», однако с тем же успехом ее можно было бы поместить в категорию «Программирование и выпуск продукта». Далее я опишу каждую практику лишь один раз – в той категории, которая показалась мне наиболее уместной.
+Основные практики
+
+Анализ требований и планирование
+
+    * «Рассказы»: функциональность приложения описывается короткими «рассказами», в которых работа системы изложена с точки зрения заказчика. Эти «рассказы» также являются основной движущей силой разработки приложения.
+    * Еженедельный цикл: вся разработка проекта происходит в виде череды еженедельных циклов. В начале недели происходит собрание, на котором заказчик выбирает, какие «рассказы» надо сделать за эту неделю.
+    * Ежеквартальный цикл: планирование в большем масштабе происходит каждый квартал. Оно состоит из обсуждений работы команды и темпов разработки.
+    * Слабина: избегайте обещаний, которые не сможете выполнить. В любой план включайте задачи, которые вы сможете выкинуть, если не будете укладываться в срок. В этом случае у вас будет выход даже в случае непредвиденных проблем. 
+
+Команда и человеческий фактор
+
+    * Работа в одном помещении: команда разработчиков должна сидеть в одном большом помещении – это облегчает общение.
+    * Команда как одно целое: команда должна состоять из людей, обладающих всеми необходимыми для проекта навыками и знаниями. Всех их должно объединять чувство принадлежности общему делу, они должны всячески поддерживать друг друга.
+    * Информативность окружения: в рабочем помещеним должны быть информативные постеры и прочие наглядные пособия, которые показывали бы статус проекта и другую информацию о проделанной работе.
+    * Энергичная работа: люди не должны быть истощены работой, им надо сохранять свежесть и энергичность, чтобы фокусироваться на задачах и уметь эффективно их решать. Следовательно, надо жестко ограничить сверхурочную работу, так чтобы у каждого оставалось время и на личную жизнь. В прежней версии методологии это называлось «приемлимый темп разработки».
+    * Парное программирование: код всегда пишут два программиста, сидящих за одним компьютером. 
+
+Проектирование
+
+    * Инкрементное проектирование: согласно ХР, не следует заниматься подробным проектированием системы в самом начале работ. Вместо этого команда разработчиков старается как можно скорее начать писать программный код, чтобы получить отзывы пользователей о системе, и улучшать ее по ходу дела. Конечно, чтобы написать хороший код, система должна быть должным образом спроектирована. Этого ХР не отрицает. Вопрос лишь – когда заниматься проектированием. Согласно экстремальному программированию, проектированием должно происходить инкрементально во время написания программного кода. Особенно полезно делать это, чтобы убирать ненужное дублирование.
+    * Сначала тесты: перед тем, как редактировать старый код или писать новый, нужно написать тесты, которые будут его проверять. Это поможет решить четыре проблемы:
+    * «Программирование по-ковбойски»: во время написания кода так легко увлечься и начать писать код для всех задач подряд, которые приходят на ум. Если же сначала написать тесты, которые затем будут проверять код, нам волей-неволей придется сосредоточиться на задаче, которую мы пытаемся решить, а также проверить, насколько правильно мы спроектировали данную часть системы.
+    * Слаженность и единство: если написать тест трудно, значит, у вас проблемы с дизайном системы, а не с тестированием или программированием. Когда программный код разбит на функционально связанные модули с минимальным количеством двусторонних зависимостей между ними, тестировать его не составит большого труда.
+    * Доверие: если вы пишете код, который работает, и документируете его с помощью автоматизированных тестов, ваши коллеги будут доверять вам.
+    * Ритм: во время программирования можно легко увлечься и блуждать в коде в течение нескольких часов. Если вы приучите себя к ритму «тест, код, рефакторинг, тест, код, рефакторинг», этого никогда не случится. 
+
+Программирование и выпуск продукта
+
+    * Десятиминутная сборка: систему должно быть можно собрать (с учетом прогона всех тестов) за десять минут. Это позволит часто повторять операцию и получать отзывы о разрабатываемом продукте.
+    * Постоянная интеграция: разработчики должны выкладывать в репозиторий результаты своей работы каждые два часа, чтобы избежать проблем с интеграцией нового кода. 
+
+Дополнительные практики
+
+Анализ требований и планирование
+
+    * Непосредственное вовлечение заказчика: люди, для которых вы пишете программный продукт, должны стать частью команды и вносить свою лепту в ежеквартальное и еженедельное планирование.
+    * Инкрементная поставка продукта: когда вам предстоит целиком сменить существующую систему, начинайте процесс с изменения нескольких функций, и так постепенно замените всю систему. Избегайте подхода, который можно выразить словами «Все или ничего!»
+    * Контракт с оговоренным объемом работ: контракт на разработку программного обеспечения включает в себя время, затраты и качество системы, однако точные объемы этой системы надо оговаривать в процессе работы. Заключив с заказчиком серию небольших контрактов, можно значительно снизить риски.
+    * Плата за использование: обычно заказчик платит за каждый выпуск программного продукта. Это нередко дает повод для конфликтов между разработчиками и заказчиком, который хочет внести как можно больше новой функциональности в наименьшее количество выпусков продукта. Если исчислять деньгами непосредственную работу над функциональностью, заказчик будет получать более точную и своевременную информацию, и сможет точнее направлять разработку продукта. 
+
+Команда и человеческий фактор
+
+    * Постоянство: команда разработчиков должна работать в одном и том же составе на протяжении нескольких проектов. Те связи, которые возникают между людьми, воистину бесценны, поэтому старайтесь перераспределять людей как можно реже.
+    * «Усушка и утряска»: если команда становится все более продуктивной, не увеличивайте ее нагрузку. Оставьте объем работ прежним, но выделите свободных членов этой команды с тем, чтобы они создавали свои собственные новые команды. 
+
+Проектирование
+
+    * Анализ причин и следствий: каждый раз, когда вы находите ошибку в системе, исправляйте не только ее, но и ее причину. В противном случае эта ошибка может повториться в будущем. 
+
+Программирование и выпуск продукта
+
+    * Код и тесты: только программный код и тесты являются постоянными артефактами системы, которые надо сохранять. Все остальное может быть получено из программного кода и тестов.
+    * Общий код: любой член команды может в любой момент изменить любую часть системы. Эта практика называлась в прежней версии ХР «коллективное владение кодом».
+    * Единая база программного кода: существует только одна официальная версия разрабатываемой системы. Если вам понадобилось создать для чего-то ее ветку, оставляйте ее лишь на несколько часов.
+    * Ежедневная поставка системы: каждую ночь надо собирать новую версию системы и вводить ее в действие. Чем больше разрыв между официальной версией системы и той, что находится у вас в компьютере, тем это рискованнее и дороже для проекта. 
+
+Как вы уже, наверное, заметили, в новой версии ХР не нашлось места для нескольких изначальных практик, например стандартов написания кода. Дело в том, что она стала уже настолько общепринятой, что ее не надо упоминать в рамках этой методологии. Исчезла также и метафора, пожалуй, самая сложная и неопределенная из всех двенадцати практик первой версии ХР, которую весьма непросто было воплотить в жизнь.
+
+Теперь, когда вы получили первое представление о новых двадцати четырех практиках, можно попытаться проанализировать связь между ними и исходными двенадцатью практиками. Некоторые из новых практик восходят к старым и расширяют их, другие – совершенно новые. К примеру, старая практика «игра в планирование» исчезла и превратилась в целых четыре – «рассказы», «еженедельный цикл», «ежеквартальный цикл» и «слабина».
+
+Ниже я привожу таблицу, на которой изображены старые и новые практики ХР. Все они разнесены по категориям. Так легче показать связь между старыми и новыми практиками, и так проще понять, чем же новое экстремальное программирование отличается от старого.
+
+Изображение:XP2.gif
+
+И в заключение я хотел бы сказать, что постарался максимально ясно – как обещает книга Кента Бека – изложить суть «гибкой» методологии разработки ПО. Новое экстремальное программирование сильно отличается от того, что было описано в первой книге Кента. Каждый принцип ХР, изложенный в первой версии, подвергается сомнению и основательно перерабатывается. Это закономерная эволюция методологии, прошедшей пятилетний путь развития с момента выхода первой книги. В этой книге много новых идей, практик и принципов, за которые некоторые последователи, возможно, даже обвинят Бека в ереси. А может быть, и прислушаются к его советам и сначала все попробуют применить его новые идеи в своих проектах. Впрочем, мне кажется, что Бек никогда не стремился превратить свои книги в «задачник с ответами», которым вы должны безукоснительно подчиняться. Нет, он стремится начать дискуссию – открытое обсуждение того, как надо разрабатывать программное обеспечение, предлагает каждой компании разработать свою собственную версию экстремального программирования, наиболее подходящего для этой компании, ее опыта и контекста ее работы.
+
+Опубликовано kirsa в June 27, 2006 11:08 PM
+Ссылки
+
+    * http://www.extremeprogramming.org/rules.html ОЧЕНЬ МОЩНЫЙ САЙТ
+    * http://www.xprogramming.com/
+    * http://www.xp123.com/
+    * Лилия Хаф. Методологии разработки программного обеспечения. КомпьютерПресс 10'2003 
+
+Источник — «http://agileguru.ru/AgileWiki/Extreme_Programming»
+Категория: Methodology
+Просмотры
+
+    * Статья
+    * Обсуждение
+    * Просмотр
+    * История
+
+Личные инструменты
+
+    * Представиться системе
+
+Меню
+
+    * Главная
+    * Форум
+    * Agile
+    * Методологии
+    * Практики
+    * Видео семинары
+    * Энциклопедия Agile
+
+Закладки
+
+    * Книги
+    * Вопросы
+    * Ответы
+    * Аджайлисты
+    * Agile Tools
+    * Links
+
+Поиск
+ 
+Навигация
+
+    * Сообщество
+    * Текущие события
+    * Свежие правки
+    * Случайная статья
+    * Справка
+    * to do
+
+Инструменты
+
+    * Ссылки сюда
+    * Связанные правки
+    * Спецстраницы
+    * Версия для печати
+    * Постоянная ссылка
+
+Powered by MediaWiki
+
+    * Последнее изменение этой страницы: 14:43, 22 августа 2009.
+    * К этой странице обращались 1098 раз.
+    * Политика конфиденциальности
+    * Описание AgileWiki
+    * Отказ от ответственности
+
+
