@@ -27,6 +27,9 @@ public:
 			string & destination
 		);
 
+	static int
+	getint(string source);
+
 };
 
 state class

@@ -7,6 +7,7 @@
 #include <iostream>
 #include <map>
 #include <set>
+#include <fstream>
 
 #include "commentcore.hpp"
 

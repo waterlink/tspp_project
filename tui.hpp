@@ -23,7 +23,7 @@ public:
 	get(info_from_user);
 
 	void
-	set(activeclass_row, int id, string value);
+	setactiveclass_row(int id, string value);
 
 	void
 	changeactiveclass(string value);
@@ -43,22 +43,43 @@ public:
 	void
 	showerror(string msg);
 
+	virtual entity *
+	create_entity();
+
+	virtual void
+	clearclass();
+
+	void
+	show(string msg);
+
+	string
+	getactiveclass_row(int id);
+
+	void
+	add(string value);
+
+	void
+	del(int id);
+
+	int
+	getn();
+
 protected:
 
 	tui(int);
 
 private:
 
-	map < int, student >
+	map < int, student * >
 	students;
 
-	map < int, lecturer >
+	map < int, lecturer * >
 	lecturers;
 
-	map < int, event >
+	map < int, event * >
 	events;
 
-	map < int, entity > *
+	map < int, entity * > *
 	activemap;
 
 };

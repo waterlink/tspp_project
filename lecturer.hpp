@@ -13,7 +13,7 @@ lecturer: public student{
 
 public:
 
-	lecturer():student(0);
+	lecturer();
 	~lecturer();
 
 	virtual string

@@ -1,32 +1,49 @@
 #include "usercore.hpp"
 
+#include "utilitycore.hpp"
+
 void
-set(activeclass, string value){
+ui::set(activeclass, string value){
 
-	switch (value){
+	if (	value == "student" ||
+		value == "lecturer" ||
+		value == "event"){
 
-		case "student":
-		case "lecturer":
-		case "event":
+		activeclass = value;
+		changeactiveclass(value);
 
-			activeclass = value;
-			changeactiveclass(value);
+	}
+	else{
 
-			return;
+		errorstate::error = "ui::set(activeclass) - error 2: wrong class name";
+		errorstate::code = 2;
 
-		case default:
-
-			errorstate::error = "ui::set(activeclass) - error 2: wrong class name";
-			errorstate::code = 2;
-
-			showerror(errorstate::error);
-
-			return;
+		showerror(errorstate::error);
 
 	}
 
 }
 
 string
-get(activeclass){ return activeclass; }
+ui::get(activeclass){ return activeclass; }
+
+void
+ui::setrowparambyid(int id, int paramid, string value){
+
+	string
+	S = getactiveclass_row(id);
+
+	S.resize(S.size() - 1);
+
+	int
+	lfind = 0,
+	rfind = 0;
+
+	for (int i = 0; i < paramid; ++i) lfind = rfind + 1, rfind = S.find("\t", lfind);
+
+	S.replace(lfind, rfind - lfind, value);
+
+	setactiveclass_row(id, S);
+
+}
 

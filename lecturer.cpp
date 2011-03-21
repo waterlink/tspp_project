@@ -1,7 +1,7 @@
 #include "lecturer.hpp"
 #include "utilitycore.hpp"
 
-lecturer::lecturer(){ id = idmaster::gen("lecturer"); }
+lecturer::lecturer():student(0){ id = idmaster::gen("lecturer"); }
 lecturer::~lecturer(){}
 
 string

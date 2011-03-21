@@ -31,15 +31,33 @@ stringcopier::split(
 	vector < string > 
 	res;
 
-	res.clear();
+	//res.clear();
+	//res.resize(50);
 
 	unsigned int 
-	found, lf = 0;
+	found, lf = 0, n = 0;
 
-	for (; (found = source.find(substr, lf)) != string::npos; lf = found + substr.size())
-		res.push_back(source.substr(lf, found - lf));
+	for (; (found = source.find(substr, lf)) != string::npos; lf = found + substr.size()){
 
-	if (lf != source.size() - 1) res.push_back(source.substr(lf));
+		string
+		S = source.substr(lf, found - lf);
+
+		res.push_back(S);
+
+		n++;
+
+	}
+
+	if (lf <= source.size() - 1){
+
+		string
+		S = source.substr(lf);
+
+		res.push_back(S);
+
+		n++;
+
+	}
 
 	return res;
 
@@ -63,7 +81,31 @@ stringcopier::replace(
 int
 idmaster::gen(string target){
 
-	return id[target]++;
+	int 
+	idr = id[target];
+
+	id[target]++;
+
+	return idr;
+
+}
+
+int
+stringcopier::getint(string source){
+
+	int
+	r = 0;
+
+	if (sscanf(source.c_str(), "%d", &r) <= 0){
+
+		errorstate::error = "stringcopier::getint: error 3: can't extract int from string";
+		errorstate::code = 3;
+
+		return 0;
+
+	}
+
+	return r;
 
 }
 
