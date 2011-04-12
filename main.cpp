@@ -9,6 +9,8 @@
 #include "tui.hpp"
 #include "usercore.hpp"
 
+// lab 2 completed
+
 int
 main(
 		int argc,
