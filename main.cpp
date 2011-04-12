@@ -8,6 +8,8 @@
 #include "event.hpp"
 #include "tui.hpp"
 #include "usercore.hpp"
+#include "utilparams.hpp"
+#include "comlineparam.hpp"
 
 // lab 2 completed
 
@@ -19,9 +21,17 @@ main(
 
 	//freopen("in.txt", "r", stdin);
 
-	tui mytui;
+	comlineaquirer
+	*comline = new comlineaquirer(argc, argv);
 
-	ui & my = mytui;
+	paramaquirer
+	&commands = *comline;
+
+	tui 
+	mytui;
+
+	ui 
+	&my = mytui;
 
 	string
 	par1, par2, par3,
@@ -32,13 +42,13 @@ main(
 
 	for (int i = 1; i < argc; ++i){
 
-		com = argv[i];
+		com = commands(i);
 
 		// set active class
 		if (com == "-c"){
 
 			// -a "activeclass"
-			par1 = argv[++i];
+			par1 = commands(++i);
 
 			my.show("setting active class...\n");
 			my.set(activeclass, par1);
@@ -77,9 +87,9 @@ main(
 		if (com == "-u"){
 
 			// -u "id" "propertynum" "value"
-			par1 = argv[++i];
-			par2 = argv[++i];
-			par3 = argv[++i];
+			par1 = commands(++i);
+			par2 = commands(++i);
+			par3 = commands(++i);
 
 			my.show("updating data...\n");
 
@@ -117,7 +127,7 @@ main(
 		if (com == "-d"){
 
 			// -d "id"
-			par1 = argv[++i];
+			par1 = commands(++i);
 
 			my.show("deleting a row...\n");
 

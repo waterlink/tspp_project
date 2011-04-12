@@ -17,6 +17,7 @@
 #define state just_comment
 #define realization just_comment
 #define mainentity just_comment
+#define strategy just_comment
 
 // set and get magic
 #define set(t, v) set##t(v)
