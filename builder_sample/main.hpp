@@ -6,4 +6,8 @@
 #include "classAextended.hpp"
 #include "classBextended.hpp"
 #include "dialog.hpp"
+#include "extenddialog.hpp"
+#include <string>
+#include <iostream>
 
+using namespace std;
