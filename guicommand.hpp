@@ -16,8 +16,7 @@ public:
 	string 
 	operator () (int x);
 
-	guicommand();
-	guicommand(int handle);
+	guicommand(ui * myui);
 	~guicommand();
 
 private:

@@ -1,6 +1,6 @@
 #include "guicommand.hpp"
 
-// <TODO>: do this through gui, not it is through tui
+// <TODO>: do this through gui, it is through tui now
 
 #include "tui.hpp"
 
@@ -12,7 +12,7 @@ guicommand::operator () (int x){
 
 	x--;
 
-	while (x < commands.size()){
+	while (x >= commands.size()){
 
 		string
 		S = my.get(info_from_user);
@@ -27,7 +27,7 @@ guicommand::operator () (int x){
 		else if (S == "exit"){
 
 			errorstate::error = "Success exit";
-			errorstate::error = -1;
+			errorstate::code = -1;
 
 			return "Exit";
 
@@ -36,31 +36,19 @@ guicommand::operator () (int x){
 
 	}
 
-	if (x < commands.size()) return commands[x];
+	return commands[x];
 
 }
 
-guicommand::guicommand(){
+guicommand::guicommand(ui * myui){
 
-	tui
-	*mytui = new tui;
-
-	myui = mytui;
-
-}
-
-guicommand::guicommand(int handle){
-
-	tui
-	*mytui = new tui;
-
-	myui = mytui;
+	this->myui = myui;
 
 }
 
 guicommand::~guicommand(){
 
-	delete myui;
+	//delete myui;
 
 }
 

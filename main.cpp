@@ -1,18 +1,6 @@
-#include "includes.hpp"
+#include "main.hpp"
 
-#include "commentcore.hpp"
-
-#include "entity.hpp"
-#include "utilitycore.hpp"
-#include "event.hpp"
-#include "event.hpp"
-#include "tui.hpp"
-#include "usercore.hpp"
-#include "utilparams.hpp"
-#include "comlineparam.hpp"
-#include "guicommand.hpp"
-
-// lab 2 completed
+// lab 1 completed
 
 int
 main(
@@ -22,20 +10,20 @@ main(
 
 	//freopen("in.txt", "r", stdin);
 
-	comlineaquirer
-	*comline = new comlineaquirer(argc, argv);
-
-	guicommand
-	*gcmd = new guicommand();
-
-	paramaquirer
-	&commands = /**comline*/ *gcmd;
-
 	tui 
 	mytui;
 
 	ui 
 	&my = mytui;
+
+	comlineaquirer
+	*comline = new comlineaquirer(argc, argv);
+
+	guicommand
+	*gcmd = new guicommand(&my);
+
+	paramaquirer
+	&commands = *comline /**gcmd*/;
 
 	string
 	par1, par2, par3,
@@ -44,7 +32,7 @@ main(
 	int
 	id1, id2, id3;
 
-	for (int i = 1; !errorstate::code; ++i){
+	for (int i = 1; errorstate::code == 0; ++i){
 
 		com = commands(i);
 
