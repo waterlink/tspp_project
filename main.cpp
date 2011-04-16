@@ -10,6 +10,7 @@
 #include "usercore.hpp"
 #include "utilparams.hpp"
 #include "comlineparam.hpp"
+#include "guicommand.hpp"
 
 // lab 2 completed
 
@@ -24,8 +25,11 @@ main(
 	comlineaquirer
 	*comline = new comlineaquirer(argc, argv);
 
+	guicommand
+	*gcmd = new guicommand();
+
 	paramaquirer
-	&commands = *comline;
+	&commands = /**comline*/ *gcmd;
 
 	tui 
 	mytui;
@@ -40,14 +44,14 @@ main(
 	int
 	id1, id2, id3;
 
-	for (int i = 1; i < argc; ++i){
+	for (int i = 1; !errorstate::code; ++i){
 
 		com = commands(i);
 
 		// set active class
 		if (com == "-c"){
 
-			// -a "activeclass"
+			// -c "activeclass"
 			par1 = commands(++i);
 
 			my.show("setting active class...\n");
