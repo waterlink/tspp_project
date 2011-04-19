@@ -8,7 +8,7 @@ main(){
 	classA
 	a;
 
-	classB
+	classBextended
 	b;
 
 	classC
@@ -16,12 +16,10 @@ main(){
 
 	dialog::builder
 	dlgbld;
-
 	dlgbld.configure(&a, &b, &c);
 
 	dialog
 	dlg = *(dialog *)(dlgbld.build());
-
 	dlg.play();
 
 	printf("\nvectored adapted dialog\n\n");
@@ -32,7 +30,7 @@ main(){
 
 	extenddialog::builder
 	edlgbld;
-	scanf("%d", &n);
+	scanf("%d", &n), getline(cin, S);
 	for (int i = 0; i < n; ++i){
 
 		getline(cin, S);
@@ -42,7 +40,6 @@ main(){
 
 	extenddialog
 	edlg = *(extenddialog *)(edlgbld.build());
-
 	edlg.play();
 
 	return 0;

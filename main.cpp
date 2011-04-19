@@ -23,7 +23,7 @@ main(
 	*gcmd = new guicommand(&my);
 
 	paramaquirer
-	&commands = *comline /**gcmd*/;
+	&commands = /**comline*/ *gcmd;
 
 	string
 	par1, par2, par3,
